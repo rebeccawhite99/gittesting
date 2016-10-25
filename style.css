@@ -73,6 +73,10 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto; }
 
+.tag .name {
+  background-color: #34FFAC;
+  box-shadow: inset 0 0 20px 5px #34BBAC; }
+
 .location {
   background-color: #222;
   color: white; }
