@@ -1,6 +1,6 @@
 /* Global Layout Set-up */
 
-@import "_colours.scss";
+@import "colours";
 
 * { 
   box-sizing: border-box;
@@ -73,9 +73,9 @@ header .profile-image:hover {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  //border-radius: 50%;
+  border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s; }
+  transition: all .5s;
 }
 
 .tag {
@@ -157,6 +157,7 @@ a.social {
   background-size: 30px 30px;
   opacity: .5;
   transition: all .25s; }
+
 
 a.twitter {
   background-image: url(images/twitter.svg); }
