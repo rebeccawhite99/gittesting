@@ -2,15 +2,13 @@
 * {
   box-sizing: border-box; }
 
-@keyframes example {
-  from {
-    background-color: red; }
-  to {
-    background-color: blue; }
-  from {
-    background-color: blue; }
-  to {
-    background-color: red; } }
+@keyframes AnimationName {
+  0% {
+    background-position: 78% 0%; }
+  50% {
+    background-position: 23% 100%; }
+  100% {
+    background-position: 78% 0%; } }
 
 body {
   margin: 0;
@@ -18,10 +16,8 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: red;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: infinite; }
+  background: linear-gradient(320edg, #ff0000, #324fde);
+  animation: AnimationName 42s ease infinite; }
 
 /* Link Styles */
 a {
