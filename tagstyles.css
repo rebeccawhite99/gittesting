@@ -1,0 +1,23 @@
+@keyframes example {
+  from {
+    background-color: red; }
+  to {
+    background-color: blue; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: red;
+  animation-name: example;
+  animation-duration: 5s; }
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  color: #6633ff; }

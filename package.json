@@ -1,0 +1,17 @@
+{
+  "name": "rebeccawhite",
+  "version": "1.0.0",
+  "description": "mywebsite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
