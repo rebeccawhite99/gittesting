@@ -2,20 +2,12 @@
 * {
   box-sizing: border-box; }
 
-@keyframes AnimationName {
-  0% {
-    background-position: 78% 0%; }
-  50% {
-    background-position: 23% 100%; }
-  100% {
-    background-position: 78% 0%; } }
-
 body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(320edg, #ff0000, #324fde); }
+  background: linear-gradient(to right bottom, #FF9999, #99B3FF); }
 
 /* Link Styles */
 a {
@@ -90,12 +82,15 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  /*border-bottom: 4px solid #ccc;*/
-  border-radius: 6px; }
+  background: #9999FF;
+  border: 2px solid #8080FF;
+  border-radius: 6px;
+  box-shadow: inset 0 0 20px 5px #8080FF; }
 
 .card:hover {
-  transform: scale(1.01); }
+  transform: scale(1.01);
+  box-shadow: 10px 10px 5px grey;
+  box-shadow: inset 0 0 20px 5px #8080FF; }
 
 .card-title {
   text-align: center;
