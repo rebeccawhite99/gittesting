@@ -69,6 +69,15 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.3); }
 
+.stars{
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  //border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s; }
+}
+
 .tag {
   background-color: #33ADFF;
   color: black;
